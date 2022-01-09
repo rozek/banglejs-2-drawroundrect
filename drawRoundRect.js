@@ -31,6 +31,8 @@
         gfx.setPixel(cx2 + x, cy2 + y);  gfx.setPixel(cx2 + y, cy2 + x);
         gfx.setPixel(cx1 - x, cy2 + y);  gfx.setPixel(cx1 - y, cy2 + x);
       }
+
+      return gfx;
     };
   }
 })();
