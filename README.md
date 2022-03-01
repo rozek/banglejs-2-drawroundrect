@@ -8,7 +8,7 @@ This module adds a method `drawRoundRect` for drawing rounded rectangles to the 
 
 The new method has the signature
 
-```
+```javascript
 g.drawRoundRect(x1,y1, x2,y2, radius);
 ```
 
